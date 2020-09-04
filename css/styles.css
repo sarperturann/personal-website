@@ -36,6 +36,7 @@ h3, p, ul {
 
 a {
   color: #E6F6F6;
+  font-family: 'Source Serif Pro', serif;
 }
 
 hr {
@@ -165,6 +166,11 @@ hr {
 }
 
 .credits {
+  color: #E6F6F6;
+  font-size: 1rem;
+}
+
+.copyright {
   color: #E6F6F6;
   font-size: 1.5rem;
 }
