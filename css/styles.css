@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: trebuchet, sans-serif;
+  background-color: #f6f4e6;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color:#41444b;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-family: 'Sacramento', cursive;
+  color:#41444b;
+  font-weight:normal;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Source Serif Pro', serif;
+  color:#41444b;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1.80rem;
+  font-family: 'Source Serif Pro', serif;
+  color: #41444b;
+}
+
+a {
+  color:#E6F6F6;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 10px;
+  width: 5%;
+  color:#41444b;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+ul {
+  font-size: 1.80rem;
+  font-family: 'Source Serif Pro', serif;
+  color: #41444b;
+}
+/***************CLASS STYLES***************/
+.nav {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: #fddb3a;
+  line-height: 2.5rem;
+  position: fixed;
+  top: 2rem;
+  width: 80%;
+  z-index: 12;
+  border-radius: 10px;
+}
+
+.navbar a{
+  text-decoration: none;
+  font-family: 'Source Serif Pro', serif;
+  letter-spacing: 0.4rem;
+  font-size: 1.5rem;
+  margin: 0 1.5rem;
+  color: #52575d;
+}
+
+.navbar a:hover {
+  color: #000;
+}
+
+.top-container {
+  background-color: #fddb3a;
+  position: relative;
+  padding-top:100px;
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #52575d;
+  padding: 30px;
+}
+
+.specific-font {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 2.5rem;
+}
+
+.specific-width {
+  width: 40%;
+  line-height: 2;
+  margin:auto;
+}
+
+.unique {
+  color:plum;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.img-pp {
+  width: 15rem;
+  margin-top: 100px;
+}
+
+.cv {
+  background-color: plum;
+  color: white;
+  font-weight: bold;
+  border: 2px solid plum;
+  display: inline-block;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 50px;
+}
+
+.backup {
+  width: 10rem;
+  margin-top:60px;
+}
+
+.img-specifyL {
+  width: 20rem;
+  float: left;
+  margin-right: 30px;
+}
+
+.img-specifyR {
+  width: 20rem;
+  float: right;
+  margin-left: 30px;
+}
+
+.artie {
+  width: 25rem;
+  float: left;
+  margin-right: 30px;
+}
+
+.btn {
+  border: none;
+  border-radius: 12px;
+  background-color: #52575d;
+  padding: 14px 28px;
+  font-size: 16px;
+  color:#E6F6F6;
+  cursor: pointer;
+  display: inline-block;
+  margin: 50px;
+}
+
+.credits {
+  color:#E6F6F6;
+  font-size: 1.5rem;
+}
+
+.footer-link{
+  margin:25px;
+  font-size: 1.8rem;
+}
