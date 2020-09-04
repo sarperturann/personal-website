@@ -156,9 +156,10 @@ ul {
   background-color: plum;
   color: white;
   font-weight: bold;
+  font-size: 1.5rem;
   border: 2px solid plum;
   display: inline-block;
-  padding: 0.5rem;
+  padding: 2rem;
   margin-top: 1rem;
   border-radius: 50px;
 }
