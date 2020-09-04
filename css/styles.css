@@ -1,78 +1,76 @@
+/****************GENERAL STYLES***************/
 body {
+  background-color: #f6f4e6;
+  font-family: trebuchet, sans-serif;
   margin: 0;
   text-align: center;
-  font-family: trebuchet, sans-serif;
-  background-color: #f6f4e6;
 }
 
 h1 {
-  font-size: 5.625rem;
-  margin:50px auto 0 auto;
+  color: #41444b;
   font-family: 'Sacramento', cursive;
-  color:#41444b;
+  font-size: 5.625rem;
+  margin: 3.125rem auto 0 auto;
 }
 
 h2 {
-  font-size: 3.5rem;
+  color: #41444b;
   font-family: 'Sacramento', cursive;
-  color:#41444b;
-  font-weight:bold;
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 2rem;
-  font-family: 'Source Serif Pro', serif;
-  color:#41444b;
   font-weight: bold;
 }
-
-p {
+/*Combined for the font size*/
+p, ul {
   font-size: 1.80rem;
-  font-family: 'Source Serif Pro', serif;
+}
+/*Combined for the color and font family*/
+h3, p, ul {
   color: #41444b;
+  font-family: 'Source Serif Pro', serif;
 }
 
 a {
-  color:#E6F6F6;
+  color: #E6F6F6;
 }
 
 hr {
   border-style: dotted none none;
-  border-width: 10px;
+  border-width: 0.625rem;
+  color: #41444b;
+  margin-bottom: 6.25rem;
+  margin-top: 3.75rem;
   width: 5%;
-  color:#41444b;
-  margin-top: 60px;
-  margin-bottom: 100px;
 }
 
-ul {
-  font-size: 1.80rem;
-  font-family: 'Source Serif Pro', serif;
-  color: #41444b;
-}
 /***************CLASS STYLES***************/
+/*Next 4 stylings are for Navigation Bar*/
 .nav {
-  width: 80%;
   margin: 0 auto;
+  width: 80%;
 }
 
 .navbar {
   background-color: #fddb3a;
+  border-radius: 0.625rem;
   line-height: 2.5rem;
   position: fixed;
   top: 2rem;
   width: 80%;
   z-index: 12;
-  border-radius: 10px;
 }
 
-.navbar a{
-  text-decoration: none;
-  font-family: 'Source Serif Pro', serif;
-  letter-spacing: 0.4rem;
-  font-size: 1.5rem;
-  margin: 0 1.5rem;
+.navbar a {
   color: #52575d;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.4rem;
+  margin: 0 1.5rem;
+  text-decoration: none;
 }
 
 .navbar a:hover {
@@ -81,14 +79,14 @@ ul {
 
 .top-container {
   background-color: #fddb3a;
+  padding-bottom: 3.125rem;
+  padding-top: 6.25rem;
   position: relative;
-  padding-top:100px;
-  padding-bottom: 50px;
 }
 
 .bottom-container {
   background-color: #52575d;
-  padding: 30px;
+  padding: 1.875rem;
 }
 
 .specific-font {
@@ -98,80 +96,80 @@ ul {
 }
 
 .specific-width {
-  width: 40%;
   line-height: 2;
-  margin:auto;
+  margin: auto;
+  width: 40%;
 }
 
 .unique {
-  color:#cc88db;
+  color: #cc88db;
 }
 
 .skill-row {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
   line-height: 2;
+  margin: 6.25rem auto;
+  text-align: left;
+  width: 50%;
 }
 
 .img-pp {
+  margin-top: 6.25rem;
   width: 15rem;
-  margin-top: 100px;
 }
 
 .cv {
   background-color: #cc88db;
+  border: 0.125rem solid #cc88db;
+  border-radius: 3.125rem;
   color: white;
-  font-weight: bold;
-  border: 2px solid #cc88db;
   display: inline-block;
-  padding: 0.5rem;
+  font-weight: bold;
   margin-top: 1rem;
-  border-radius: 50px;
+  padding: 0.5rem;
 }
 
 .backup {
+  margin-top: 3.75rem;
   width: 10rem;
-  margin-top:60px;
 }
 
 .img-specifyL {
-  width: 20rem;
   float: left;
-  margin-right: 30px;
+  margin-right: 1.875rem;
+  width: 20rem;
 }
 
 .img-specifyR {
-  width: 20rem;
   float: right;
-  margin-left: 30px;
+  margin-left: 1.875rem;
+  width: 20rem;
 }
 
 .artie {
-  width: 25rem;
   float: left;
-  margin-right: 30px;
+  margin-right: 1.875rem;
+  width: 25rem;
 }
 
 .btn {
   background-color: #cc88db;
+  border: 0.125rem solid #cc88db;
+  border-radius: 3.125rem;
   color: white;
-  font-weight: bold;
-  font-size: 1.5rem;
-  border: 2px solid #cc88db;
   display: inline-block;
-  padding: 2rem;
-  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
   margin-bottom: 6rem;
-  border-radius: 50px;
+  margin-top: 1rem;
+  padding: 2rem;
 }
 
 .credits {
-  color:#E6F6F6;
+  color: #E6F6F6;
   font-size: 1.5rem;
 }
 
-.footer-link{
-  margin:25px;
+.footer-link {
   font-size: 1.8rem;
+  margin: 1.5625rem;
 }
