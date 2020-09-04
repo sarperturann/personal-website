@@ -153,15 +153,14 @@ ul {
 }
 
 .btn {
-  border: none;
-  border-radius: 12px;
-  background-color: #52575d;
-  padding: 14px 28px;
-  font-size: 16px;
-  color:#E6F6F6;
-  cursor: pointer;
+  background-color: plum;
+  color: white;
+  font-weight: bold;
+  border: 2px solid plum;
   display: inline-block;
-  margin: 50px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 50px;
 }
 
 .credits {
