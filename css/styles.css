@@ -16,14 +16,14 @@ h2 {
   font-size: 3.5rem;
   font-family: 'Sacramento', cursive;
   color:#41444b;
-  font-weight:normal;
+  font-weight:bold;
 }
 
 h3 {
   font-size: 2rem;
   font-family: 'Source Serif Pro', serif;
   color:#41444b;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 p {
@@ -41,8 +41,8 @@ hr {
   border-width: 10px;
   width: 5%;
   color:#41444b;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
 
 ul {
@@ -94,6 +94,7 @@ ul {
 .specific-font {
   font-family: 'Source Serif Pro', serif;
   font-size: 2.5rem;
+  font-weight: normal;
 }
 
 .specific-width {
@@ -103,7 +104,7 @@ ul {
 }
 
 .unique {
-  color:plum;
+  color:#cc88db;
 }
 
 .skill-row {
@@ -119,10 +120,10 @@ ul {
 }
 
 .cv {
-  background-color: plum;
+  background-color: #cc88db;
   color: white;
   font-weight: bold;
-  border: 2px solid plum;
+  border: 2px solid #cc88db;
   display: inline-block;
   padding: 0.5rem;
   margin-top: 1rem;
@@ -153,11 +154,11 @@ ul {
 }
 
 .btn {
-  background-color: plum;
+  background-color: #cc88db;
   color: white;
   font-weight: bold;
   font-size: 1.5rem;
-  border: 2px solid plum;
+  border: 2px solid #cc88db;
   display: inline-block;
   padding: 2rem;
   margin-top: 1rem;
