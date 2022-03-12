@@ -153,6 +153,12 @@ hr {
   width: 25rem;
 }
 
+.circle {
+  float: left;
+  margin-right: 1.875rem;
+  width: 18rem;
+}
+
 .btn {
   background-color: #cc88db;
   border: 0.125rem solid #cc88db;
